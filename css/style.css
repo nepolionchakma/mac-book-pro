@@ -1,0 +1,31 @@
+body{
+    font-family: 'Poppins', sans-serif!important;
+}
+img{
+    width: 100%;
+}
+.font-color{
+    color: #26292de3;
+}
+button:hover{
+    color: #fff;
+    background-color: #B0C9DD!important;
+    border: 1px solid #398fffe3;
+}
+.border-color{
+    border-color: #26292de3;
+}
+.apply-btn{
+    background-color: rgb(153, 37, 37);
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 4px 10px 4px 10px;
+    border-radius: 5px;
+}
+tr{
+    font-weight: 600!important;
+}
+
+.right{
+    text-align: right!important;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Book Pro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">  
+
+</head>
+<body>
+    <main>
+        <section>
+            <div class="container font-color">
+                <div class="row mx-auto mt-5 justify-content-center">
+                    <div class="col-lg-4 mx-lg-3">
+                        <img src="img/mac.png" alt="">
+                    </div>
+                    <div class="col-lg-6 mx-lg-3 ">
+                        <div class="title">
+                            <h3 class="fw-bold">Customize your Blue 24-inch iMac with Apple M1 chip.</h3>
+                        <p>Apple M1 chip with 8-core CPU, 8-core GPU, and 16-core Neural Engine
+                            8GB unified memory
+                            256GB SSD storage¹
+                            13-inch Retina display with True Tone
+                            Magic Keyboard
+                            Touch Bar and Touch ID
+                            Force Touch trackpad
+                            Two Thunderbolt / USB 4 ports.</p>
+                        </div>
+                        <div class="specification">
+                            <div class="specicication1 mt-4">
+                                <h5>Memory :</h5>
+                                <button id="8gb" class="bg-white rounded border-1 font-color my-2">8GB unified memory</button>
+                                <button id="16gb" class="bg-white rounded border-1 font-color my-2">16GB unified memory</button>
+                            </div>
+                            <div class="specicication2 mt-4">
+                                <h5>Storage :</h5>
+                                <button id="256gb" class="bg-white rounded border-1 font-color my-2">256GB SSD storage</button>
+                                
+                                <button id="512gb" class="bg-white rounded border-1 font-color my-2">512GB SSD storage</button>
+                                
+                                <button id="1tb" class="bg-white rounded border-1 font-color my-2">1TB SSD storage</button>
+                                
+                            </div>
+                            <div class="specicication3 mt-4">
+                                <h5>Choose your delivery option :</h5>
+                                <button id="free" class="bg-white rounded border-1 font-color my-2">Friday, Aug 25 FREE Prime Delivery</button>
+                                <button id="cost" class="bg-white rounded border-1 font-color my-2">Friday, Aug 21 Delivery charge $20</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <table class="table mt-5">
+                                    <tbody>
+                                        <tr>
+                                            <td>Best Price</td>
+                                            <td class="right"><span id="best-price" >1299</span>$</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Extra Memory Cost</td>
+                                            <td class="right"><span id="extraMemoryCost">0</span>$</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Extra Storage Cost</td>
+                                            <td class="right"><span id="extraStorageCost">0</span>$</td>
+                                        </tr>
+                                        <tr class="border-color">
+                                            <td>Delivery Cost</td>
+                                            <td class="right"><span id="deliveryCost">0</span>$</td>
+                                        </tr>
+                                        <tr class="border-white">
+                                            <td>Total Price</td>
+                                            <td class="right"><span id="totalMacFinalPrice">1299</span>$ </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="promo my-4">
+                            <p class="mb-1">Add promo code</p>
+                            <input id="promo-input" class="rounded" type="text">
+                            <button id="promo-btn" class="apply-btn none">Apply</button>
+                            <p id="tracker" class="my-3 text-danger"> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="total">
+                    <h4 class="border-top text-center py-4 fw-bold">Price : <span id="discountPrice">1299</span>$</h4>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
